@@ -1,31 +1,20 @@
+/* <!-- Aseel Albassam + Aljawharah Almisned --> */
 body{
 
-    background-color: #DDC8C4;
+  
     background-color: #f8edeb;
-    color: #896A67;
-    color: #6B4D57;
-    color: #13070C;
-
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
-    padding: 0px;
+    padding: 4px;
     text-align: left;
     background:#DDC8C4;
     color: white;
     font-size: 30px;
+   
 }
-* {
-  box-sizing: border-box;
- }*:before,
- *:after {
-  box-sizing: border-box;
- }html,
- body {
-  height: 100%;
-  position: relative;
- }
+
 .logo{
     float: left;
     width: 300px;
@@ -38,6 +27,7 @@ header{
   .topnav {
     overflow: hidden;
     background-color: #e9e9e9;
+  
   }
   
   .topnav a {
@@ -113,6 +103,7 @@ header{
     align-content:center;
     position: relative;
    
+   
   }
 
   .pan-header {
@@ -153,6 +144,10 @@ header{
   color: #13070C;  
   width: 50%; 
   float: left;
+  padding-left: 40px;
+  padding-bottom: 100px;
+ 
+
 } 
 
 p.about-header{
@@ -161,6 +156,7 @@ p.about-header{
   font-size: 50px;
   float: left;
   width: 100%;
+  padding-left: 40px;
  
   
 }
@@ -170,52 +166,7 @@ p.about-header{
 }
 
 
-  /*footer style*/
-  .main-container {
-    min-height: 100vh; 
-    overflow: hidden;
-    display: block;
-    position: relative;
-    padding-bottom: 100px; 
-   }
 
-  
-
-  .footer{
-
-    position:fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height:25%;
-    background-color: #DDC8C4;
-    color: white;
-    text-align: left;
-    padding: 40px;
-  }
-
-
-.footer-about{
-    float:left;
-    width:25%;
-
-}
-
-.footer-Locations{
-    float:left;
-    width:25%;
-
-}
-.footer-hours{
-    float:left;
-    width:25%;
-
-}
-
-.footer-rights{
-    float:left;
-    width:25%;
-}
                                         /*  here products style */
 .p1 {
   text-decoration: #13070C;
@@ -336,6 +287,7 @@ color:palevioletred;
     font-style: italic;
     font-size: medium;
     color: lightcoral;
+    padding: 20px;
 
   }
 
@@ -355,6 +307,64 @@ cursor: pointer;
   }
   
 
+  /*footer style*/
+  *,
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    box-sizing:         border-box;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 4rem;
+    min-height: 100%;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+  }
+  
+  footer{
+
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:200px;
+    background-color: #DDC8C4;
+    color: white;
+    text-align: left;
+    padding: 20px;
+    
+  }
+  
+  
+  .footer-about{
+      float:left;
+      width:25%;
+  
+  }
+  
+  .footer-Locations{
+      float:left;
+      width:25%;
+  
+  }
+  .footer-hours{
+      float:left;
+      width:25%;
+  
+  }
+  
+  .footer-rights{
+      float:left;
+      width:25%;
+  }
+  
 
 
 
